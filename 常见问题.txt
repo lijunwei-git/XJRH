@@ -1,0 +1,7 @@
+CMS中，安防设备模块只能添加一个门禁系统
+
+
+1. 发卡页面提示门禁服务存在多个，无法显示人员分组
+	删除equipment acs表里的脏数据
+2. 修改车牌服务的地址
+	cms_params这张表中的，找到Module列为ReservoirManager的行，把PlateServiceAddress字段对应的IP地址修改为当前转换服务所在的服务器地址
